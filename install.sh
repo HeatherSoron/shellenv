@@ -2,5 +2,5 @@
 
 ROOT="https://raw.githubusercontent.com/ethankaminski/shellenv/master"
 
-curl "$ROOT/files/.gitignore" > ~/.gitignore
+curl "$ROOT/dotfiles/gitignore" > ~/.gitignore
 git config --global core.excludesfile ~/.gitignore
